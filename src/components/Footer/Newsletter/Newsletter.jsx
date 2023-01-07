@@ -22,10 +22,16 @@ const Newsletter = () => {
         </div>
         <div className="social-icons">
           <div className="icon">
-            <FaFacebookF />
-            <FaInstagram />
-            <FaLinkedinIn />
-            <FaTwitter />
+            <FaLinkedinIn size={14} />
+          </div>
+          <div className="icon">
+            <FaFacebookF size={14} />
+          </div>
+          <div className="icon">
+            <FaTwitter size={14} />
+          </div>
+          <div className="icon">
+            <FaInstagram size={14} />
           </div>
         </div>
       </div>
