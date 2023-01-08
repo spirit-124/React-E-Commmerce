@@ -1,5 +1,6 @@
 import "./SingleProduct.scss";
 
+import Relatedproducts from "./RelatedProducts/RelatedProducts";
 import {
   FaInstagram,
   FaFacebookF,
@@ -55,6 +56,7 @@ const SingleProduct = () => {
             </div>
           </div>
         </div>
+        <Relatedproducts />
       </div>
     </div>
   );
