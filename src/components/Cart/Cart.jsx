@@ -1,6 +1,6 @@
 import { MdClose } from "react-icons/md";
 import { BsCart, BsCartX } from "react-icons/bs";
-import cartItem from "./CartItem/CartItem";
+import CartItem from "./CartItem/CartItem";
 
 import "./Cart.scss";
 const Cart = ({ setShowCart }) => {
@@ -22,7 +22,7 @@ const Cart = ({ setShowCart }) => {
           <button className="return-cta">Return to shop</button>
         </div> */}
         <>
-          <cartItem />
+          <CartItem />
           <div className="cart-footer">
             <div className="subtotal">
               <span className="text">Subtotal:</span>
