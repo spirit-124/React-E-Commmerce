@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const params = {
-  Headers: {
+  headers: {
     Authorization:
       "beared " + ProcessingInstruction.env.REACT_APP_STRIPE_APP_KEY,
   },
