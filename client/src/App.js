@@ -6,6 +6,7 @@ import Category from "./components/Category/Category";
 import Newsletter from "./components/Footer/Newsletter/Newsletter";
 import SingleProduct from "./components/SingleProduct/SingleProduct";
 import AppContext from "./utils/context";
+// import "./App.scss";
 
 function App() {
   return (
